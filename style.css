@@ -25,3 +25,11 @@
 .carousel > div{
     border-radius: 5px;
 }
+.carousel-indicators{
+    background-color: #d3d3d3;
+   
+}
+.carousel-indicators button{
+    
+    border-radius: 50%;
+}
