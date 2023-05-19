@@ -34,6 +34,21 @@ h5{
     .p-5{
         overflow-x: hidden;
     }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        
+    }
+}
+@media (max-width : 260px) {
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+        
+    }
 }
 .navbar a {
     text-decoration: none;
@@ -151,7 +166,6 @@ color :white;
     display: flex;
     flex-direction: row;
     margin-left: 40%;
-    
 }
 .bottom>div{
     text-decoration: none;
