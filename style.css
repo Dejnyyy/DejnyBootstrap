@@ -13,6 +13,28 @@ h5{
     float: left;
     font-weight: bold;
 }
+@media (max-width : 770px) {
+    .p-5 >div>div {
+        width: 100%;
+        margin-left: 17%;
+        padding: 0px;
+        max-width: 700px;
+    }
+    .p-5{
+        overflow-x: hidden;
+    }
+}
+@media (max-width : 896px) {
+    .p-5 >div>div {
+        width: 100%;
+        margin-left: 0%;
+        padding: 0px;
+        max-width: 700px;
+    }
+    .p-5{
+        overflow-x: hidden;
+    }
+}
 .navbar a {
     text-decoration: none;
     color:black;
@@ -43,6 +65,9 @@ h5{
     
     background-color: #e9e9e9;
 }
+.roww{
+    padding-top:50px;
+}
 .p-4{
     background-color: #1f79b8;
     color: white;
@@ -65,15 +90,13 @@ h5{
     color: black;
     
 }
-.row{
-    padding-top:6%;
+.rowa{
+    padding-top:5%;
 }
 .carousel-caption > p{
     opacity: 0;
 }
-.btn-primary{
-    margin-bottom: 20px;
-}
+
 .biii{
     margin-bottom:10%;
 }
@@ -84,9 +107,62 @@ h5{
     padding: 0px;
     color: black;
     margin-left: 6.25%;
+    margin-bottom: 5%;
 }
 .card-body> h4{
     float: left;
     font-weight: bold;
     color: navy;
+}
+.p-6{
+    background-color:#071d2c;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+.foter1>a{
+float: left;
+text-decoration: none;
+color :white;
+}
+.foter2>a{
+    float: right;
+    text-decoration: none;
+    color :white;
+}
+.foter1{
+    margin-left: 15%;
+    background-color:#071d2c;
+    color: white;
+    text-decoration: none;
+    color :white;
+}
+.foter2{
+    margin-right: 15%;
+    background-color:#071d2c;
+    color: white;
+}
+.p-5 >div>div>div>div {
+    margin-top: 10%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    
+}
+.bottom>div{
+    text-decoration: none;
+    color: white;
+    padding: 1% 1%;
+}
+
+.bottom>div>a{
+    color:#01b5e3;
+    text-decoration: none;
+}
+.butono{
+    margin-bottom: 20px;
 }
